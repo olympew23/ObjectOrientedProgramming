@@ -12,4 +12,12 @@ public class Scissors extends InventoryItem {
         this.quantity = quantity;
         this.category = "Scissors";
     }
+
+
+
+    @Override
+    public String toString() {
+        return "Scissors{}";
+    }
 }
+

@@ -7,10 +7,12 @@ public class Pens extends InventoryItem{
 
 
 
-    public Pens(String name, int quantity,String category ){
+
+    public Pens(String name, int quantity, String category ){
         this.name = name;
         this.quantity = quantity;
         this.category ="Pens";
+
 
     }
 

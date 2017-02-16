@@ -10,14 +10,34 @@ public class InventoryItem {
     int quantity;
     String category;
 
-
-
-    public static InventoryItem createItem(String name, int quantity, String category) {
-        if (category.equalsIgnoreCase("Scissors"));
-        return new Scissors(name, quantity, category);
-
-
+    public String getName() {
+        return name;
     }
 
-
+    public void setName(String name) {
+        this.name = name;
     }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+}
+
+
